@@ -1,0 +1,3 @@
+#!/bin/bash
+./hex32sim <$1
+
