@@ -74,7 +74,7 @@ while (running)
 { 
   inst = pmem[pc];
 	
-// printf("pc = %d; op = %d; opd = %d; areg = %d; breg = %d; oreg = %d\n", pc, (inst>>4) & 0xF, inst & 0xF, areg, breg, oreg);	 	
+/* printf("pc = %d; op = %d; opd = %d; areg = %d; breg = %d; oreg = %d\n", pc, (inst>>4) & 0xF, inst & 0xF, areg, breg, oreg);	 	*/
 	
   pc = pc + 1;	
 
