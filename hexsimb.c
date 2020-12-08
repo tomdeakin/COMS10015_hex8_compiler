@@ -4,6 +4,12 @@
 #define true     -1
 #define false    0
 
+/* Forward declare functions for Mac OS Big Sur */
+svc();
+load();
+inbin();
+simout(int,int);
+simin(int);
 
 FILE *codefile;
 
